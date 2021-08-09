@@ -1,0 +1,111 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <style>
+    body{
+      background-image:url("https://images.unsplash.com/photo-1627995822892-0b51dd68e042?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+    .full{
+
+      margin-top:120px;
+padding-bottom: 200px;
+height: 35%;
+  margin-bottom: 250px;
+  margin-left: 450px;
+  margin-right: 495px;
+  background-color: white;
+
+  opacity: 0.4;
+}
+.full #head{
+  text-align:left;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-top: 20px;
+  color:black;
+}
+label{
+  margin-left: 30px;
+  font-size:100%;
+}
+#email{
+  background-color: white;
+  margin-left: 30px;
+  padding-right: 150px;
+  cursor: pointer;
+}
+#username{
+  background-color: white;
+  margin-left: 30px;
+  padding-right: 150px;
+  cursor: pointer;
+}
+#password{
+  background-color: white;
+  margin-left: 30px;
+  padding-right: 150px;
+  cursor: pointer;
+}
+
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+  .button1 {
+    background-color: #008CBA;
+  cursor: pointer;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 110px;
+    }
+
+  #rem{
+    margin-left: 30px;
+  }
+    </style>
+    </head>
+    <body>
+      <div class="full">
+        <div id="head">
+<h2><b>LOGIN</b></h2>
+</div>
+<form action="welcome.html">
+   <label for="email"><b>Email:</b></label><br>
+  <input type="email" id="email" name="email" placeholder="Mail id">
+
+  <br><br>
+
+  <label for="username"><b>Username:</b></label><br>
+ <input type="text" id="username" name="username" placeholder="username" required>
+
+ <br><br>
+
+ <label for="password"><b>Password:</b></label><br>
+<input type="password" id="password" name="password" placeholder="Password" required><br>
+
+<input type="checkbox" id="rem">remeber the username<br><br>
+
+<button class="button button1" onclick="myFunction()">Login</button>
+
+</form>
+<script>
+  function myFunction(){
+    alert("login successfully");
+  }
+  </script>
+</body>
+</html>
